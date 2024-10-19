@@ -1,0 +1,70 @@
+--- Test User 1 ---
+-- Data 1 -- X
+Make = Airstream
+Model = Basecamp
+BodyType = Travel Trailer
+FuelType = Gas
+Mileage =  6k
+Location = United States
+Year = 2022
+Number of Doors = 2
+Caravan Image URL = https://www.practicalcaravan.com/wp-content/uploads/2020/04/6225797-scaled-1.jpg
+
+-- Data 2 -- X
+Make = Jayco
+Model = Jay Flight
+BodyType = Travel Trailer
+FuelType = Electricity
+Mileage = 8k
+Location = Canada
+Year = 2023
+Number of Doors = 1
+Caravan Image URL = https://media.autoexpress.co.uk/image/private/s--X-WVjvBW--/f_auto,t_content-image-full-desktop@1/v1652783970/autoexpress/2022/05/Coachman-Lusso-caravan_tsf39e.jpg
+
+-- Data 3 -- X
+Make = Winnebago
+Model = Minnie
+BodyType = Travel Trailer
+FuelType = Gas
+Mileage = 7k
+Location = Australia
+Year = 2021
+Number of Doors = 2
+Caravan Image URL = https://www.regalfurnishings.co.uk/wp-content/uploads/2018/11/Caravan.jpg
+
+--- Test User 2 ---
+-- Data 4 -- X
+Make = Forest River
+Model = Grey Wolf
+BodyType = Fifth Wheel
+FuelType = Electricity
+Mileage = 3k
+Location = United Kingdom
+Year = 2022
+Number of Doors = 3
+Caravan Image URL = https://upload.wikimedia.org/wikipedia/commons/c/c8/Caravan.jpg
+
+-- Data 5 -- X
+Make = Dutchmen
+Model = Aspen Trail
+BodyType = Travel Trailer
+FuelType = Electricity
+Mileage = 9k
+Location = Germany
+Year = 2023
+Number of Doors = 2
+Caravan Image URL = https://www.caravantimes.co.uk/wp-content/uploads/2021/01/cnphoto_0_0_0_0_14106431_1200.jpg
+
+-- Data 6 -- X
+Make = Keystone
+Model = Passport
+BodyType = Travel Trailer
+FuelType = Gas
+Mileage = 5k
+Location = France
+Year = 2024
+Number of Doors = 1
+Caravan Image URL = https://i.ytimg.com/vi/IPVV1uHlYSg/maxresdefault.jpg
+
+-- Delete -- 
+Caravan Image URL = https://signal.avg.com/hs-fs/hubfs/Blog_Content/Avg/Signal/AVG%20Signal%20Images/how_to_deactivate_your_facebook_account_signal/Signal-How-to-Deactivate-or-Delete-Your-Facebook-Account-Hero.jpg?width=1200&name=Signal-How-to-Deactivate-or-Delete-Your-Facebook-Account-Hero.jpg

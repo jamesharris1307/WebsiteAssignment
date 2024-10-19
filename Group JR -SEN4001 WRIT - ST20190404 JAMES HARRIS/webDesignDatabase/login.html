@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Page</title>
+    <link rel="stylesheet" href="styleSheet.css" />
+    <script defer src="login-validate.js"></script>
+  </head>
+  <body class="body-login">
+    <!--Banner-->
+    <header class="header">
+      <a href="welcome.html" class="logo">RentMyCaravan</a>
+      <nav class="navbar">
+        <a href="welcome.html">Home</a>
+        <a href="about.html">About</a>
+      </nav>
+    </header>
+
+    <!--Seperate-->
+    <div class="seperate-login"></div>
+
+    <!--Login Title-->
+    <section>
+      <h1 class="welcome">Login</h1>
+    </section>
+
+    <!--Display Data Validation-->
+    <div class="container-form errorMessage" id="error"></div>
+
+    <!--Input Username-->
+    <form
+      action="login-check.php"
+      method="post"
+      class="container-form"
+      id="form"
+    >
+      <input
+        type="text"
+        id="username"
+        name="username"
+        placeholder="Username:"
+      />
+
+      <!--Input Password-->
+      <input
+        type="password"
+        id="password"
+        name="password"
+        placeholder="Password:"
+      />
+
+      <!--Submit Details Button-->
+      <input type="submit" value="Continue" class="continue" />
+    </form>
+  </body>
+</html>

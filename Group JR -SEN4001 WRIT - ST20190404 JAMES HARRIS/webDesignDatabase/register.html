@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register Page</title>
+    <link rel="stylesheet" href="styleSheet.css" />
+    <script defer src="register-validate.js"></script>
+  </head>
+  <body class="body-login">
+    <!--Banner-->
+    <header class="header">
+      <a href="welcome.html" class="logo">RentMyCaravan</a>
+
+      <nav class="navbar">
+        <a href="welcome.html">Home</a>
+        <a href="about.html">About</a>
+      </nav>
+    </header>
+
+    <!--Seperate-->
+    <div class="seperate-register"></div>
+
+    <!--Welcome Message-->
+    <section>
+      <h1 class="welcome">Register</h1>
+    </section>
+
+    <!--Seperate-->
+    <div class="seperate-register-2"></div>
+
+    <!--Display Data Validation-->
+    <div class="errorMessage" id="error"></div>
+
+    <!--Input Details-->
+    <form
+      action="register-user.php"
+      method="post"
+      class="container-form"
+      id="form"
+    >
+      <!--First Name-->
+      <input
+        type="text"
+        id="firstName"
+        name="firstName"
+        placeholder="First Name:"
+      />
+
+      <!--Last Name-->
+      <input
+        type="text"
+        id="lastName"
+        name="lastName"
+        placeholder="Last Name:"
+      />
+
+      <!--Date of Birth-->
+      <input
+        type="text"
+        id="dateBirth"
+        name="dateBirth"
+        placeholder="Date Of Birth:"
+        date="date"
+        onfocus="this.type='date'"
+      />
+
+      <!--Email-->
+      <input type="email" id="email" name="email" placeholder="Email:" />
+
+      <!--Username-->
+      <input
+        type="text"
+        id="username"
+        name="username"
+        placeholder="Create Username:"
+      />
+
+      <!--Password-->
+      <input
+        type="password"
+        id="password"
+        name="password"
+        placeholder="Create Password:"
+      />
+
+      <!--Password Verify-->
+      <input
+        type="password"
+        id="verifyPassword"
+        name="verifyPassword"
+        placeholder="Verify Password:"
+      />
+
+      <!--Submit Details Button-->
+      <input type="submit" value="Continue" class="continue" />
+      <!------------------------->
+    </form>
+  </body>
+</html>

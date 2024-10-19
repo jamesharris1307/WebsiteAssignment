@@ -1,0 +1,265 @@
+/*Header-Banner*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Helvetica, sans-serif;
+}
+
+/*Background Welcome Page*/
+body {
+  background-image: url(images/snowscat-EnFQmcTtsjo-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+/*Background Login Page*/
+.body-login {
+  background-image: url(images/leo-foureaux-mAgCSBkE038-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+/*Background Home Page*/
+.body-home {
+  background-image: url(images/kevin-schmid--grs8iMGqQE-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+/*Banner*/
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 50px 100px;
+  /*background: #ffffff4d;*/
+  background: #18115aa9;
+  border-width: 5px;
+  border-style: solid;
+  border-top: white;
+  border-left: white;
+  border-right: white;
+  border-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
+}
+
+.headerNotFixed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 50px 100px;
+  /*background: #ffffff4d;*/
+  background: #18115aa9;
+  border-width: 5px;
+  border-style: solid;
+  border-top: white;
+  border-left: white;
+  border-right: white;
+  border-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
+}
+
+/*Logo*/
+.logo {
+  font-size: 35px;
+  color: white;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+/*.logo:hover {
+  color: rgba(255, 0, 0, 0.39);
+}*/
+
+/*Banner Buttons (1)*/
+.navbar a {
+  position: relative;
+  font-size: 30px;
+  font-weight: 500;
+  color: white;
+  text-decoration: none;
+  margin-left: 40px;
+}
+
+/*Banner Buttons (2)*/
+.navbar a::before {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 0;
+  height: 3px;
+  background: white;
+  transition: 0.4s;
+}
+
+/*Banner Buttons (3)*/
+.navbar a:hover::before {
+  width: 100%;
+}
+
+/*Main Body*/
+section {
+  /*border: 3px solid white;*/
+  display: flex;
+  justify-content: center;
+  vertical-align: middle;
+}
+
+/*Welcome*/
+.welcome {
+  font-size: 100px;
+  color: white;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+/*Buttons*/
+button {
+  /*border: 3px solid white;*/
+  border-radius: 5px;
+  height: 200px;
+  width: 400px;
+  /*background: #ffffff4d;*/
+  background: #18115aa9;
+  font-size: 50px;
+  color: white;
+  text-decoration: none;
+  font-weight: 700;
+  border: 0;
+}
+
+/*Buttons Hover*/
+button:hover {
+  background: #ffffff96;
+  cursor: none;
+  border: 3px solid white;
+}
+
+/*Spereate Index Page*/
+.seperate-index {
+  /*border: 3px solid white;*/
+  height: 300px;
+  color: transparent;
+  padding-left: 75px;
+  padding-right: 75px;
+}
+
+/*Sepereate Login Page*/
+.seperate-login {
+  /*border: 3px solid white;*/
+  height: 300px;
+  color: transparent;
+  padding-left: 75px;
+  padding-right: 75px;
+}
+
+/*Sepereate Register Page (1)*/
+.seperate-register {
+  /*border: 3px solid white;*/
+  height: 200px;
+  color: transparent;
+}
+
+/*Sepererate Register Page (2)*/
+.seperate-register-2 {
+  /*border: 3px solid white;*/
+  height: 25px;
+  color: transparent;
+}
+
+.button-position {
+  /*border: 3px solid white;*/
+  display: flex;
+  justify-content: center;
+  vertical-align: middle;
+  margin-top: 40px;
+}
+
+.container-form {
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+input {
+  width: 25%;
+  margin-top: 10px;
+  padding: 10px;
+  font-size: 20px;
+}
+
+.input-image {
+  /*border: 3px solid white;*/
+  width: 25%;
+  margin-top: 10px;
+  padding: 10px;
+  font-size: 20px;
+  background-color: white;
+}
+
+.continue {
+  background-color: rgba(45, 32, 119, 0.658);
+  color: white;
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  width: 25%;
+  border: 0;
+  cursor: none;
+  border-radius: 25px;
+  margin-top: 30px;
+}
+
+.continue:hover {
+  background-color: rgb(45, 32, 119);
+}
+
+.seperate-home-buttons {
+  height: 25px;
+  color: transparent;
+  padding-left: 75px;
+  padding-right: 75px;
+}
+
+.sep-home {
+  height: 200px;
+}
+
+.table {
+  border-collapse: collapse;
+  width: 50%;
+  background-color: transparent;
+}
+
+th,
+td {
+  border: 1px solid black;
+  text-align: center;
+  padding-top: 5px;
+  padding-left: 80px;
+  padding-right: 80px;
+  padding-bottom: 10px;
+  background-color: rgba(255, 255, 255, 0.87);
+}
+
+img {
+  width: 50%;
+  height: auto;
+}
